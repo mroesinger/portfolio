@@ -1,0 +1,123 @@
+/* #nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: aliceblue;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+#nav-button-container {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+} */
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: azure;
+  position: sticky;
+  top: 0;
+}
+
+#logo {
+  margin-right: auto; /* Pushes the button-container to the right */
+}
+
+#button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-button {
+  margin: 0 1rem;
+}
+
+/* Optional styling for the logo */
+#logo p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#contact {
+  position: bottom;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#contact-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#porsche-problems {
+  flex: 1 1 300px;
+  margin: 10px;
+  text-align: center;
+}
+
+#home-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#westy-rentals {
+  flex: 1 1 300px;
+  margin: 10px;
+  text-align: center;
+}
+
+#westy-rentals-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#logo {
+  z-index: 999;
+  display: flex;
+}
+
+#about-image-container {
+  display: flex;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+#about-image {
+  max-width: 50%;
+  margin-right: 2rem;
+}
+
+#about-info {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
