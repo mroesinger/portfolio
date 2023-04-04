@@ -3,6 +3,8 @@
   display: flex;
   align-items: center;
   background-color: black;
+  width: 900px; /* Set the width to 900px */
+  margin: 0 auto; /* Center the element horizontally */
 }
 
 #about-image {
@@ -15,6 +17,10 @@
   line-height: 1.5;
   color: white;
   font-family: "avneir next", sans-serif;
+}
+
+#about {
+  margin: auto;
 }
 
 /**** CONTACT ****/
@@ -43,6 +49,11 @@ body {
   background-color: black;
 }
 
+#home-image {
+  display: block;
+  margin: auto;
+  vertical-align: middle;
+}
 /**** NAV ****/
 
 #nav {
@@ -88,12 +99,8 @@ body {
   color: white;
   font-family: "avneir next", sans-serif;
   font-size: 1.2rem;
-}
-
-#porsche-problems {
-  flex: 1 1 300px;
-  margin: 10px;
-  text-align: center;
+  margin: auto;
+  width: 900px;
 }
 
 #westy-rentals-vid {
