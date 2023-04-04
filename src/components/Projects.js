@@ -14,6 +14,9 @@ export default function Projects() {
             src="https://liveworkwander.com/wp-content/uploads/2016/12/HERO-PHOTOx2.jpg"
           />
         </div>
+        <div id="westy-rentals-vid">
+          https://www.loom.com/share/7f5f2c913b854e7d84dc7d44a838436d
+        </div>
       </div>
     </div>
   );

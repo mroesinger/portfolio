@@ -4,6 +4,7 @@ export default function About() {
       <div id="about-image-container">
         <img
           id="about-image"
+          alt="motorpic"
           src="https://avatars.githubusercontent.com/u/106269063?v=4"
         />
         <div id="about-info">
