@@ -13,7 +13,7 @@ export default function About() {
           Da-boom-da-da-mmm-dum-na-ee-ma Da-boom-da-da-mmm-dum-na-ee-ma
           Da-boom-da-da-mmm-dum-na-ee-ma Da-boom-da-da-mmm-dum-na-ee-ma
           Da-boom-da-da-mmm-dum-na-ee-ma Da-boom-da-da-mmm-dum-na-ee-ma
-          Da-boom-da-da-mmm-dum-na-ee-ma Da-boom-da-da-mmm-dum-na-ey Go!
+          Da-boom-da-da-mmm-dum-na-ee-ma Da-boom-da-da-mmm-dum-na-ey Go! -KORN
         </div>
       </div>
     </div>
