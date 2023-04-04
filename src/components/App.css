@@ -52,7 +52,6 @@ body {
 #home-image {
   display: block;
   margin: auto;
-  vertical-align: middle;
 }
 /**** NAV ****/
 
@@ -99,6 +98,7 @@ body {
   color: white;
   font-family: "avneir next", sans-serif;
   font-size: 1.2rem;
+  line-height: 1.5;
   margin: auto;
   width: 900px;
 }
