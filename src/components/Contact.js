@@ -9,13 +9,13 @@ export default function Contact() {
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4H3kSxWJ6ATMIjA-l52rsGhHX_op9lusqeetVIaWFxw&s"
           ></img>
         </a>
-        {/* <a href="https://www.linkedin.com/">
+        <a href="https://www.linkedin.com/">
           <img
             id="linkedin-icon"
             alt="linkedin icon"
-            src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png"
+            src="https://static-00.iconduck.com/assets.00/linkedin-icon-512x512-vkm0drb1.png"
           ></img>
-        </a> */}
+        </a>
       </div>
     </div>
   );
