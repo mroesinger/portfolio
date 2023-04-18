@@ -66,10 +66,6 @@
   margin-top: 4px;
 }
 
-#modal {
-  background-color: white;
-}
-
 /**** HOME ****/
 
 body {
@@ -144,4 +140,71 @@ body {
 
 #westy-rentals-vid > div {
   flex: 1;
+}
+
+/**** ADJSUT FOR MOBILE ****/
+
+@media only screen and (max-width: 600px) {
+  /* adjust about section */
+  #about-image-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #about-image {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  #about-info {
+    font-size: 1rem;
+  }
+
+  /* adjust contact section */
+  #contact {
+    font-size: 1rem;
+    padding: 10px 0;
+  }
+
+  #github-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  #linkedin-icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    margin-top: 0;
+  }
+
+  #email-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 2px;
+  }
+
+  /* adjust nav section */
+  #nav {
+    padding: 0.5rem;
+  }
+
+  .nav-button {
+    margin: 0 0.5rem;
+  }
+
+  #logo p {
+    font-size: 1.2rem;
+  }
+
+  /* adjust projects section */
+  #projects {
+    width: 100%;
+  }
+
+  #westy-rentals-gif {
+    margin-right: 0;
+  }
 }

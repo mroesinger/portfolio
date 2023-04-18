@@ -18,11 +18,10 @@ export default function Projects() {
           />
         </a>
         <div>
-          Being a Volkswagen camper enthusiast, I thought it would be fun to
-          make a website where my friends in the van community could rent their
-          westfalias to one another. The app allows users to interact with one
-          another and rent vans from van owners for their own camping
-          adventures.
+          As a Volkswagen camper enthusiast, I thought it would be fun to make a
+          website where my friends in the van community could rent their
+          westfalias to one another. The app allows users to interact with each
+          other and rent vans from van owners for their own camping adventures.
         </div>
       </div>
     </div>
