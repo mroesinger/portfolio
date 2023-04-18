@@ -66,6 +66,10 @@
   margin-top: 4px;
 }
 
+#modal {
+  background-color: white;
+}
+
 /**** HOME ****/
 
 body {
