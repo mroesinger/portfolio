@@ -4,7 +4,7 @@ export default function Nav() {
   return (
     <div id="nav">
       <div id="logo">
-        <p>flatsixDevelopment</p>
+        <p>Roesinger Development</p>
       </div>
       <div id="button-container">
         <Link

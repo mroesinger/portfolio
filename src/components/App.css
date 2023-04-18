@@ -22,6 +22,7 @@
 
 #about {
   margin: auto;
+  padding-bottom: 20px;
 }
 
 /**** CONTACT ****/
@@ -75,6 +76,8 @@ body {
 #home-image {
   display: block;
   margin: auto;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 /**** NAV ****/
 
@@ -142,7 +145,7 @@ body {
   flex: 1;
 }
 
-/**** ADJSUT FOR MOBILE ****/
+/**** ADJUST FOR MOBILE ****/
 
 @media only screen and (max-width: 600px) {
   /* adjust about section */
