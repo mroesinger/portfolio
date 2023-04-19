@@ -1,3 +1,21 @@
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 70%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
 /**** ABOUT ****/
 
 #about-image-container {
@@ -19,6 +37,7 @@
   line-height: 1.5;
   color: white;
   font-family: "avneir next", sans-serif;
+  opacity: 0.9;
 }
 
 #about-container {
@@ -117,6 +136,10 @@ body {
 
 /**** PROJECTS ****/
 
+img {
+  animation: fadeIn 1s;
+}
+
 #projects {
   display: flex;
   justify-content: center;
@@ -128,6 +151,7 @@ body {
   line-height: 1.5;
   margin: auto;
   width: 900px;
+  opacity: 0.9;
 }
 
 #westy-rentals-container {
@@ -163,6 +187,42 @@ body {
 
 #synth-swap-container > div {
   flex: 1;
+}
+
+#synth-swap-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#synth-swap-link p:hover {
+  text-decoration: none;
+  animation: scaleUp 2s;
+  animation: fadeIn 2s forwards;
+  color: lightgrey;
+}
+
+#synth-swap-repo {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+#synth-swap-repo p:hover {
+  text-decoration: none;
+  animation: scaleUp 2s;
+  animation: fadeIn 2s forwards;
+  color: lightgrey;
+}
+#westfalia-rentals-repo {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+#westfalia-rentals-repo p:hover {
+  text-decoration: none;
+  animation: scaleUp 2s;
+  animation: fadeIn 2s forwards;
+  color: lightgrey;
 }
 
 /**** ADJUST FOR MOBILE ****/

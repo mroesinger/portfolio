@@ -13,7 +13,7 @@ export default function About() {
           world of Software Engineering. I was introduced to coding while
           visiting my best friend from music school in Berlin, Germany. Having
           honed my engineering skills in the automotive industry, my transition
-          to the tech world has been seamless. Everything I loved about,
+          to the tech world has been seamless. Everything I loved about
           diagnosing fuel injection systems, tracing circuits, and repairing
           faulty electronics is all neatly encompassed in the process of
           debugging. Here's to trading dirty hands for clean code! 🍻
