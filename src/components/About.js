@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div id="about">
+    <div id="about-container">
       <div id="about-image-container">
         <img
           id="about-image"

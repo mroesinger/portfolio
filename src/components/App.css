@@ -21,7 +21,7 @@
   font-family: "avneir next", sans-serif;
 }
 
-#about {
+#about-container {
   margin: auto;
   padding-bottom: 20px;
 }
@@ -134,6 +134,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 20px;
 }
 
 #westy-rentals-gif {
