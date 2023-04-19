@@ -32,7 +32,7 @@ export default function Projects() {
           Playing, fixing, and trading vintage analog synthesizers has been a
           passion of mine for all of my adult life. For my very first JavaScript
           project, I made a simple p2p app, where San Francisco bay area users
-          could host their synths for free as an alternative to craigslist.
+          could host their synths for free, as an alternative to craigslist.
           <a href="https://synthswap.roesinger.dev" id="synth-swap-link">
             <p>synthswap.roesinger.dev</p>
           </a>
