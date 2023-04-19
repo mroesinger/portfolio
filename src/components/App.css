@@ -106,13 +106,13 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  /* background-color: rgba(0, 0, 0, 0); Transparent background */
   background-color: white;
   position: sticky;
   top: 0;
   color: black;
   font-family: "avneir next", sans-serif;
   border-bottom: 1px solid black;
+  width: 100%;
 }
 .nav-button {
   margin: 0 1rem;
