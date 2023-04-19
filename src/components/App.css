@@ -113,6 +113,7 @@ body {
   font-family: "avneir next", sans-serif;
   border-bottom: 1px solid black;
   width: 100%;
+  animation: fadeIn 1s;
 }
 .nav-button {
   margin: 0 1rem;
