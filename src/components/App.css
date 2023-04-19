@@ -130,20 +130,37 @@ body {
   width: 900px;
 }
 
-#westy-rentals-vid {
+#westy-rentals-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 #westy-rentals-gif {
-  max-width: 100%;
+  width: 400px; /* adjust as necessary */
   height: auto;
   margin-right: 20px;
   border-radius: 15px;
 }
 
-#westy-rentals-vid > div {
+#westy-rentals-container > div {
+  flex: 1;
+}
+
+#synth-swap-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#synth-swap-image {
+  width: 400px; /* adjust as necessary */
+  height: auto;
+  margin-right: 20px;
+  border-radius: 15px;
+}
+
+#synth-swap-container > div {
   flex: 1;
 }
 
