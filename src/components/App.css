@@ -22,8 +22,8 @@
   display: flex;
   align-items: center;
   background-color: black;
-  width: 900px; /* Set the width to 900px */
-  margin: 0 auto; /* Center the element horizontally */
+  width: 900px;
+  margin: 0 auto;
 }
 
 #about-image {
@@ -115,6 +115,12 @@ body {
   width: 100%;
   animation: fadeIn 1s;
 }
+
+.nav-button p:hover {
+  text-decoration: none;
+  animation: fadeIn 1s;
+  color: dimgray;
+}
 .nav-button {
   margin: 0 1rem;
 }
@@ -132,7 +138,7 @@ body {
 #logo {
   z-index: 999;
   display: flex;
-  margin-right: auto; /* Pushes the button-container to the right */
+  margin-right: auto;
 }
 
 /**** PROJECTS ****/
@@ -163,7 +169,7 @@ img {
 }
 
 #westy-rentals-gif {
-  width: 400px; /* adjust as necessary */
+  width: 400px;
   height: auto;
   margin-right: 20px;
   border-radius: 15px;
@@ -180,7 +186,7 @@ img {
 }
 
 #synth-swap-image {
-  width: 400px; /* adjust as necessary */
+  width: 400px;
   height: auto;
   margin-right: 20px;
   border-radius: 15px;
