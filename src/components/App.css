@@ -9,7 +9,7 @@
 
 @keyframes fadeIn {
   0% {
-    opacity: 70%;
+    opacity: 0%;
   }
   100% {
     opacity: 100%;
@@ -118,7 +118,7 @@ body {
 
 .nav-button p:hover {
   text-decoration: none;
-  animation: fadeIn 1s;
+  animation: fadeIn 2s;
   color: dimgray;
 }
 .nav-button {
@@ -204,9 +204,8 @@ img {
 
 #synth-swap-link p:hover {
   text-decoration: none;
-  animation: scaleUp 2s;
   animation: fadeIn 2s forwards;
-  color: lightgrey;
+  color: dimgray;
 }
 
 #synth-swap-repo {
@@ -216,9 +215,8 @@ img {
 }
 #synth-swap-repo p:hover {
   text-decoration: none;
-  animation: scaleUp 2s;
   animation: fadeIn 2s forwards;
-  color: lightgrey;
+  color: dimgrey;
 }
 #westfalia-rentals-repo {
   color: white;
@@ -227,9 +225,8 @@ img {
 }
 #westfalia-rentals-repo p:hover {
   text-decoration: none;
-  animation: scaleUp 2s;
   animation: fadeIn 2s forwards;
-  color: lightgrey;
+  color: dimgrey;
 }
 
 /**** ADJUST FOR MOBILE ****/
