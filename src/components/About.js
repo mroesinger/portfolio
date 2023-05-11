@@ -21,6 +21,7 @@ export default function About() {
         </div>
       </div>
       <div id="intro-video-container">
+        <div id="intro-info">Allow myself to introuce... myself 🤦‍♂️</div>
         <a href="https://www.loom.com/share/fc3d857efea249a3b087a81d1086fda5">
           <img
             id="intro-video-gif"

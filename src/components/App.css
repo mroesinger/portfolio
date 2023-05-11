@@ -46,6 +46,14 @@
   padding-bottom: 20px;
 }
 
+#intro-info {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: white;
+  font-family: "avneir next", sans-serif;
+  opacity: 0.9;
+}
+
 #intro-video-container {
   display: flex;
   align-items: center;
@@ -58,8 +66,9 @@
 #intro-video-gif {
   width: 100%;
   height: auto;
-  margin-right: 20px;
+  /* margin-right: 20px; */
   border-radius: 15px;
+  float: right;
 }
 /**** CONTACT ****/
 
