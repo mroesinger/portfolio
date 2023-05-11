@@ -262,66 +262,143 @@ img {
 /**** ADJUST FOR MOBILE ****/
 
 @media only screen and (max-width: 600px) {
-  /* adjust about section */
+  /* keyframes */
+  @keyframes scaleUp {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.2);
+    }
+  }
+
+  /* ABOUT */
   #about-image-container {
+    display: flex;
     flex-direction: column;
-    width: 100%;
+    align-items: center;
+    background-color: black;
+    padding-bottom: 20px;
   }
 
   #about-image {
-    max-width: 100%;
+    max-width: 80%;
     margin-right: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
   }
 
   #about-info {
     font-size: 1rem;
+    line-height: 1.5;
+    color: white;
+    font-family: "avneir next", sans-serif;
+    opacity: 0.9;
+    margin: 0;
   }
 
-  /* adjust contact section */
-  #contact {
+  #about-container {
+    padding-bottom: 10px;
+  }
+
+  #intro-info {
     font-size: 1rem;
-    padding: 10px 0;
+    line-height: 1.5;
+    color: white;
+    font-family: "avneir next", sans-serif;
+    opacity: 0.9;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  #intro-video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
+
+  #intro-video-gif {
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    float: none;
+  }
+
+  /* CONTACT */
+  #contact {
+    position: bottom;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: "avneir next", sans-serif;
+    font-size: 1rem;
+  }
+
+  #contact-container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
   }
 
   #github-icon {
     width: 40px;
     height: 40px;
+    margin-right: 10px;
+    margin-bottom: 1rem;
   }
 
   #linkedin-icon {
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     margin-right: 10px;
-    margin-top: 0;
+    margin-bottom: 1rem;
   }
 
   #email-icon {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin-right: 10px;
-    margin-top: 2px;
+    margin-bottom: 1rem;
   }
 
-  /* adjust nav section */
+  /* HOME */
+  #home-image {
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    max-width: 90%;
+    margin-bottom: 1rem;
+  }
+
+  #home-image-container {
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+
+  /* NAV */
   #nav {
-    padding: 0.5rem;
-  }
-
-  .nav-button {
-    margin: 0 0.5rem;
-  }
-
-  #logo p {
-    font-size: 1.2rem;
-  }
-
-  /* adjust projects section */
-  #projects {
-    width: 100%;
-  }
-
-  #westy-rentals-gif {
-    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0;
+    color: black;
+    font-family: "avneir next", sans-serif;
+    border-bottom: 1px solid black;
   }
 }
