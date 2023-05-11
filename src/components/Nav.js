@@ -18,7 +18,7 @@ export default function Nav() {
         </Link>
         <Link
           className="nav-button"
-          to="about"
+          to="about-container"
           spy={true}
           smooth={true}
           duration={700}
