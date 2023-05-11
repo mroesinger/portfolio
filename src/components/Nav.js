@@ -13,6 +13,7 @@ export default function Nav() {
           spy={true}
           smooth={true}
           duration={700}
+          offset={-100}
         >
           <p>Home</p>
         </Link>
@@ -22,6 +23,7 @@ export default function Nav() {
           spy={true}
           smooth={true}
           duration={700}
+          offset={-100}
         >
           <p>About</p>
         </Link>
@@ -31,6 +33,7 @@ export default function Nav() {
           spy={true}
           smooth={true}
           duration={700}
+          offset={-100}
         >
           <p>Projects</p>
         </Link>
@@ -40,6 +43,7 @@ export default function Nav() {
           spy={true}
           smooth={true}
           duration={700}
+          offset={-100}
         >
           <p>Contact</p>
         </Link>
