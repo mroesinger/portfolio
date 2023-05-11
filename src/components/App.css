@@ -52,20 +52,21 @@
   color: white;
   font-family: "avneir next", sans-serif;
   opacity: 0.9;
+  margin-right: 20px;
 }
 
 #intro-video-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 900px;
   height: auto;
+  margin: 0 auto;
 }
 
 #intro-video-gif {
   width: 100%;
   height: auto;
-  /* margin-right: 20px; */
   border-radius: 15px;
   float: right;
 }
