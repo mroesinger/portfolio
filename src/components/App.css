@@ -148,6 +148,7 @@ body {
   border-bottom: 1px solid black;
   width: 100%;
   animation: fadeIn 1s;
+  cursor: default;
 }
 
 .nav-button p:hover {
