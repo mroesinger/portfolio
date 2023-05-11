@@ -148,7 +148,6 @@ body {
   border-bottom: 1px solid black;
   width: 100%;
   animation: fadeIn 1s;
-  cursor: default;
   box-sizing: border-box; /* include border and padding in width */
 }
 
@@ -159,6 +158,7 @@ body {
 }
 .nav-button {
   margin: 0 1rem;
+  cursor: pointer;
 }
 
 #button-container {
