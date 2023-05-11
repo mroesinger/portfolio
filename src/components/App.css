@@ -16,6 +16,11 @@
   }
 }
 
+::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+
 /**** ABOUT ****/
 
 #about-image-container {
@@ -157,6 +162,7 @@ body {
 #button-container {
   display: flex;
   justify-content: center;
+  margin-left: auto;
 }
 
 #logo p {
