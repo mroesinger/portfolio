@@ -149,6 +149,7 @@ body {
   width: 100%;
   animation: fadeIn 1s;
   cursor: default;
+  box-sizing: border-box; /* include border and padding in width */
 }
 
 .nav-button p:hover {
