@@ -24,6 +24,7 @@
   background-color: black;
   width: 900px;
   margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 #about-image {
@@ -45,6 +46,21 @@
   padding-bottom: 20px;
 }
 
+#intro-video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  width: 100%;
+  height: auto;
+}
+
+#intro-video-gif {
+  width: 100%;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 15px;
+}
 /**** CONTACT ****/
 
 #contact {
@@ -209,8 +225,8 @@ img {
 
 #synth-swap-link p:hover {
   text-decoration: none;
-  animation: fadeIn 2s forwards;
-  color: dimgray;
+  animation: fadeIn 1s forwards;
+  color: lightgray;
 }
 
 #synth-swap-repo {
@@ -220,8 +236,8 @@ img {
 }
 #synth-swap-repo p:hover {
   text-decoration: none;
-  animation: fadeIn 2s forwards;
-  color: dimgrey;
+  animation: fadeIn 1s forwards;
+  color: lightgrey;
 }
 #westfalia-rentals-repo {
   color: white;
@@ -230,8 +246,8 @@ img {
 }
 #westfalia-rentals-repo p:hover {
   text-decoration: none;
-  animation: fadeIn 2s forwards;
-  color: dimgrey;
+  animation: fadeIn 1s forwards;
+  color: lightgrey;
 }
 
 /**** ADJUST FOR MOBILE ****/

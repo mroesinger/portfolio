@@ -20,6 +20,15 @@ export default function About() {
           dirty hands for clean code! 🍻
         </div>
       </div>
+      <div id="intro-video-container">
+        <a href="https://www.loom.com/share/fc3d857efea249a3b087a81d1086fda5">
+          <img
+            id="intro-video-gif"
+            alt="intro-loom-vid"
+            src="https://cdn.loom.com/sessions/thumbnails/fc3d857efea249a3b087a81d1086fda5-with-play.gif"
+          />
+        </a>
+      </div>
     </div>
   );
 }

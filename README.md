@@ -1,4 +1,4 @@
-### `npm react-scoll`
+### `npm install react-scoll`
 
 # Getting Started with Create React App
 
