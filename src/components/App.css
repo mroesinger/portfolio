@@ -149,6 +149,8 @@ body {
   width: 100%;
   animation: fadeIn 1s;
   box-sizing: border-box; /* include border and padding in width */
+  /* opacity: 1; */
+  z-index: 1;
 }
 
 .nav-button p:hover {
@@ -269,144 +271,52 @@ img {
 
 /**** ADJUST FOR MOBILE ****/
 
-@media only screen and (max-width: 600px) {
-  /* keyframes */
-  @keyframes scaleUp {
-    0% {
-      transform: scale(1);
-    }
-    100% {
-      transform: scale(1.2);
-    }
+@media screen and (max-width: 767px) {
+  /* Apply the scaleUp animation to elements */
+  .scale-up {
+    animation-name: scaleUp;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
   }
 
-  /* ABOUT */
+  /* Apply the fadeIn animation to elements */
+  .fade-in {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  /* Override the max-width property for the about-image-container element */
   #about-image-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: black;
-    padding-bottom: 20px;
-  }
-
-  #about-image {
-    max-width: 80%;
-    margin-right: 0;
-    margin-bottom: 1rem;
-    border-radius: 15px;
-  }
-
-  #about-info {
-    font-size: 1rem;
-    line-height: 1.5;
-    color: white;
-    font-family: "avneir next", sans-serif;
-    opacity: 0.9;
-    margin: 0;
-  }
-
-  #about-container {
-    padding-bottom: 10px;
-  }
-
-  #intro-info {
-    font-size: 1rem;
-    line-height: 1.5;
-    color: white;
-    font-family: "avneir next", sans-serif;
-    opacity: 0.9;
-    margin: 0;
-    margin-bottom: 1rem;
-  }
-
-  #intro-video-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-  }
-
-  #intro-video-gif {
-    width: 80%;
-    height: auto;
-    border-radius: 15px;
-    margin-bottom: 1rem;
-    float: none;
-  }
-
-  /* CONTACT */
-  #contact {
-    position: bottom;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: black;
-    text-align: center;
-    color: white;
-    font-family: "avneir next", sans-serif;
-    font-size: 1rem;
-  }
-
-  #contact-container {
     max-width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
   }
 
+  /* Adjust the margin and font size for the about-info and intro-info elements */
+  #about-info,
+  #intro-info {
+    margin-right: 0;
+    font-size: 1rem;
+  }
+
+  /* Adjust the margin and padding for the contact and contact-container elements */
+  #contact {
+    padding: 1rem;
+  }
+  #contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
   #github-icon {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-    margin-bottom: 1rem;
+    margin-right: 0;
   }
-
-  #linkedin-icon {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-    margin-bottom: 1rem;
-  }
-
   #email-icon {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-    margin-bottom: 1rem;
+    margin-right: 0;
+    margin-top: 1rem;
   }
 
-  /* HOME */
-  #home-image {
-    display: block;
-    margin: auto;
-    border-radius: 15px;
-    max-width: 90%;
-    margin-bottom: 1rem;
-  }
-
-  #home-image-container {
-    padding-bottom: 20px;
-    padding-top: 10px;
-  }
-
-  /* NAV */
-  #nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    background-color: whitesmoke;
-    position: sticky;
-    top: 0;
-    color: black;
-    font-family: "avneir next", sans-serif;
-    border-bottom: 1px solid black;
+  /* Adjust the width for the projects and westy-rentals-gif elements */
+  #projects,
+  #westy-rentals-gif {
+    width: 100%;
   }
 }
