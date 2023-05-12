@@ -4,6 +4,8 @@ export default function Nav() {
   return (
     <div id="nav">
       <div id="logo">
+        {/* <img id="nav-image" alt="fuchs wheel" src="fuchs vector.jpeg" /> */}
+        {/* <img id="nav-image" alt="fuchs wheel" src="flat6vector.jpeg" /> */}
         <p>Flat-Six Development</p>
       </div>
       <div id="button-container">
