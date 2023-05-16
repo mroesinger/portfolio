@@ -313,12 +313,9 @@ img {
 
   #about-image {
     order: -1; /* Move the image to the beginning */
+    max-width: 100%;
   }
 
-  #intro-info {
-    margin-right: 0;
-    font-size: 1rem;
-  }
   /**** MOBILE CONTACT ****/
 
   /* Adjust the margin and padding for the contact and contact-container elements */
@@ -326,15 +323,23 @@ img {
     padding: 1rem;
   }
   #contact-container {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+  }
+  #linkedin-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 7px;
+    margin-top: 2px;
   }
   #github-icon {
     margin-right: 0;
   }
   #email-icon {
-    margin-right: 0;
-    margin-top: 1rem;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    margin-top: 3px;
   }
 
   #intro-video-container {
