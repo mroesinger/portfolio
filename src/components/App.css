@@ -321,6 +321,17 @@ img {
     margin-top: 1rem;
   }
 
+  #intro-video-container {
+    display: none;
+  }
+  #home-image {
+    display: none;
+  }
+
+  #nav {
+    width: 100%;
+  }
+
   /* Adjust the width for the projects and westy-rentals-gif elements */
   #projects,
   #westy-rentals-gif {
