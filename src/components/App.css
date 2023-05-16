@@ -294,16 +294,32 @@ img {
   }
 
   /* Override the max-width property for the about-image-container element */
-  #about-image-container {
-    max-width: 100%;
-  }
+
+  /**** MOBILE ABOUT ****/
 
   /* Adjust the margin and font size for the about-info and intro-info elements */
-  #about-info,
+  #about-image-container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #about-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #about-image {
+    order: -1; /* Move the image to the beginning */
+  }
+
   #intro-info {
     margin-right: 0;
     font-size: 1rem;
   }
+  /**** MOBILE CONTACT ****/
 
   /* Adjust the margin and padding for the contact and contact-container elements */
   #contact {
@@ -324,17 +340,47 @@ img {
   #intro-video-container {
     display: none;
   }
+  /**** MOBILE HOME ****/
+
   #home-image {
     display: none;
   }
+  #home-image-container {
+    width: 100%;
+  }
+  /**** MOBILE NAV ****/
 
   #nav {
     width: 100%;
   }
 
+  #logo {
+    display: none;
+  }
+
+  #button-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  /**** MOBILE PROJECTS ****/
+
   /* Adjust the width for the projects and westy-rentals-gif elements */
   #projects,
   #westy-rentals-gif {
+    width: 100%;
+  }
+  #westy-rentals-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #synth-swap-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #synth-swap-image {
     width: 100%;
   }
 }
