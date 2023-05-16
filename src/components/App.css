@@ -299,7 +299,7 @@ img {
     /* Safari and Chrome */
   }
   body {
-    overflow: hidden;
+    overflow-x: hidden;
   }
   /* Override the max-width property for the about-image-container element */
 
