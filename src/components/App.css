@@ -309,12 +309,14 @@ img {
   #about-info {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
+    margin: 2%;
   }
 
   #about-image {
     order: -1; /* Move the image to the beginning */
     max-width: 100%;
+    margin: 2%;
   }
 
   /**** MOBILE CONTACT ****/
@@ -340,7 +342,7 @@ img {
     width: 45px;
     height: 45px;
     margin-right: 10px;
-    margin-top: 3px;
+    margin-top: 2px;
   }
 
   #intro-video-container {
@@ -372,7 +374,9 @@ img {
   /**** MOBILE PROJECTS ****/
 
   /* Adjust the width for the projects and westy-rentals-gif elements */
-  #projects,
+  #projects {
+    width: 100%;
+  }
   #westy-rentals-gif {
     width: 100%;
   }
@@ -380,13 +384,15 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 2%;
   }
   #synth-swap-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 2%;
   }
   #synth-swap-image {
-    width: 100%;
+    width: 96%;
   }
 }
