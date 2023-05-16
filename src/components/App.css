@@ -294,6 +294,13 @@ img {
     animation-fill-mode: forwards;
   }
 
+  ::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+  }
+  body {
+    overflow: hidden;
+  }
   /* Override the max-width property for the about-image-container element */
 
   /**** MOBILE ABOUT ****/
