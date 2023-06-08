@@ -134,6 +134,35 @@ body {
   padding-top: 20px;
 }
 
+#intro-container {
+  padding-top: 20px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: white;
+  font-family: "avneir next", sans-serif;
+  opacity: 0.9;
+}
+
+#intro-name {
+  font-size: 4.2rem;
+  line-height: 1.5;
+  color: white;
+  font-family: "avneir next", sans-serif;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+}
+
+#intro-text {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: white;
+  font-family: "avneir next", sans-serif;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+}
+
 /**** NAV ****/
 
 #nav {
@@ -141,7 +170,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background-color: white;
+  background-color: whitesmoke;
   position: sticky;
   top: 0;
   color: black;
@@ -150,7 +179,7 @@ body {
   width: 100%;
   animation: fadeIn 1s;
   box-sizing: border-box; /* include border and padding in width */
-  /* opacity: 1; */
+  /* opacity: 0.9; */
   z-index: 1;
 }
 
