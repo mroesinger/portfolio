@@ -47,7 +47,7 @@ export default function Nav() {
           duration={700}
           offset={-100}
         >
-          <p>Contact</p>
+          <p>Connect</p>
         </Link>
       </div>
     </div>
