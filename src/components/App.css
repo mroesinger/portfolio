@@ -151,16 +151,24 @@ body {
   opacity: 0.9;
   display: flex;
   justify-content: center;
+  padding-top: 20px;
 }
 
 #intro-text {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   line-height: 1.5;
   color: white;
   font-family: "avneir next", sans-serif;
   opacity: 0.9;
   display: flex;
   justify-content: center;
+  padding-bottom: 10px;
+}
+
+#intro-underline {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
 }
 
 /**** NAV ****/
