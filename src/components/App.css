@@ -400,6 +400,44 @@ img {
   #home-image-container {
     width: 100%;
   }
+
+  #intro-container {
+    padding-top: 10px;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: white;
+    font-family: "avneir next", sans-serif;
+    opacity: 0.9;
+  }
+
+  #intro-name {
+    font-size: 3rem;
+    line-height: 1.2;
+    color: white;
+    font-family: "avneir next", sans-serif;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  #intro-text {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: white;
+    font-family: "avneir next", sans-serif;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+  }
+
+  #intro-underline {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
   /**** MOBILE NAV ****/
 
   #nav {
