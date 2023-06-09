@@ -11,10 +11,12 @@ export default function Projects() {
           />
         </a>
         <div>
-          As a Volkswagen camper enthusiast, I thought it would be fun to make a
-          website where my friends in the van community could rent their
-          westfalias to one another. The app allows users to interact with each
-          other and rent vans from van owners for their own camping adventures.
+          Driven by my passion for Volkswagen campers, I created a website where
+          fellow enthusiasts can rent their beloved Westfalias to one another.
+          This innovative app fosters connections within the van community,
+          allowing users to interact, share experiences, and embark on
+          unforgettable camping adventures by renting unique vans from
+          passionate van owners.
           <a
             href="https://github.com/mroesinger/westfalia-rentals"
             id="westfalia-rentals-repo"
