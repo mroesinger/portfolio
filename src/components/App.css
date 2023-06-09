@@ -419,29 +419,15 @@ img {
     display: flex;
     justify-content: center;
     padding-top: 10px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
   }
 
   #intro-text {
-    font-size: 1.5rem;
-    line-height: 1.2;
-    color: white;
-    font-family: "avneir next", sans-serif;
-    opacity: 0.9;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: none;
   }
 
   #intro-underline {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 10px;
+    display: none;
   }
 
   /**** MOBILE NAV ****/
