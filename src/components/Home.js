@@ -6,10 +6,12 @@ export default function Home() {
         <div id="intro-underline">
           __________________________________________________________________________
         </div>
-        <div id="intro-text">Programmer | Mechanic | Camper | Musician </div>
+        <div id="intro-text">
+          Programmer | Mechanic | Musician | Camper | Corgi-Fan
+        </div>
       </div>
       <div id="home-image-container">
-        <img id="home-image" alt="911 engine" src="flatsixpatent.jpg" />
+        <img id="home-image" alt="911 engine" src="blueprint.jpeg" />
       </div>
     </div>
   );

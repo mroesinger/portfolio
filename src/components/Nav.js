@@ -49,6 +49,16 @@ export default function Nav() {
         >
           <p>Connect</p>
         </Link>
+        <Link
+          className="nav-button"
+          to="contact"
+          spy={true}
+          smooth={true}
+          duration={700}
+          offset={-100}
+        >
+          <p>Connect</p>
+        </Link>
       </div>
     </div>
   );
