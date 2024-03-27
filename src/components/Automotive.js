@@ -8,13 +8,13 @@ export default function Automotive() {
         <img id="ej22-image" src="EJ22.jpg" alt="ej22 engine" />
         <div>
           An engine swap that looks and works better than the original, is a
-          Subaru EJ22 into a Volkswagen Vanagon.
+          Subaru EJ22 into a Volkswagen Vanagon 4WD.
         </div>
       </div>
       <div id="ej22-container">
         <img id="ej22-image" src="typeiv.jpeg" alt="ej22 engine" />
         <div>
-          A freshly rebuilt Type-IV motor going into a classic bay window VW
+          A freshly rebuilt VW Type-IV motor going into a classic bay window VW
           bus.
         </div>
       </div>
