@@ -15,6 +15,18 @@
     opacity: 100%;
   }
 }
+@font-face {
+  font-family: "pfont";
+  src: url("/public/911porschav3title.ttf") format("truetype"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "pfontbold";
+  src: url("/public/911porschav3bold.ttf") format("truetype"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
 
 ::-webkit-scrollbar {
   display: none;
@@ -171,14 +183,15 @@ body {
 }
 
 #intro-name {
-  font-size: 4.2rem;
+  font-size: 3.5rem;
   line-height: 1.5;
   color: white;
-  font-family: "avneir next", sans-serif;
+  /* font-family: "avneir next", sans-serif; */
   /* opacity: 0.9; */
   display: flex;
   justify-content: center;
   padding-top: 20px;
+  font-family: "pfont";
 }
 
 #intro-text {
@@ -210,6 +223,8 @@ body {
   top: 0;
   color: black;
   font-family: "avneir next", sans-serif;
+  /* font-family: "pfont"; */
+
   border-bottom: 1px solid black;
   width: 100%;
   animation: fadeIn 1s;
@@ -237,6 +252,7 @@ body {
 #logo p {
   font-size: 1.5rem;
   font-weight: bold;
+  font-family: "pfontbold";
 }
 
 #logo {
