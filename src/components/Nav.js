@@ -41,13 +41,23 @@ export default function Nav() {
         </Link>
         <Link
           className="nav-button"
+          to="automotive"
+          spy={true}
+          smooth={true}
+          duration={700}
+          offset={-100}
+        >
+          <p>Automotive</p>
+        </Link>
+        <Link
+          className="nav-button"
           to="contact"
           spy={true}
           smooth={true}
           duration={700}
           offset={-100}
         >
-          <p>Contact</p>
+          <p>Connect</p>
         </Link>
       </div>
     </div>

@@ -75,6 +75,33 @@
   border-radius: 15px;
   float: right;
 }
+
+/**** AUTOMOTIVE****/
+#ej22-image {
+  width: 400px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 15px;
+}
+#ej22-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+#automotive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  font-family: "avneir next", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: auto;
+  width: 900px;
+  opacity: 0.9;
+}
 /**** CONTACT ****/
 
 #contact {
