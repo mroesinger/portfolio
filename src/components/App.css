@@ -390,6 +390,23 @@ img {
     margin: 2%;
   }
 
+  /**** MOBILE AUTOMOTIVE ****/
+
+  /* Adjust the width for the projects and westy-rentals-gif elements */
+  #automotive {
+    width: 100%;
+  }
+
+  #ej22-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+  }
+  #ej22-image {
+    width: 96%;
+  }
+
   /**** MOBILE CONTACT ****/
 
   /* Adjust the margin and padding for the contact and contact-container elements */
