@@ -484,7 +484,9 @@ img {
     font-size: 2.4rem;
     line-height: 1.2;
     color: white;
-    font-family: "avneir next", sans-serif;
+    /* font-family: "avneir next", sans-serif; */
+    font-family: "pfont";
+
     opacity: 0.9;
     display: flex;
     justify-content: center;
