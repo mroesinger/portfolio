@@ -17,7 +17,7 @@
 }
 @font-face {
   font-family: "pfont";
-  src: url("/public/911porschav3title.ttf") format("truetype"); /* Modern Browsers */
+  src: url("/public/911porschav3.ttf") format("truetype"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
@@ -27,7 +27,12 @@
   font-weight: normal;
   font-style: normal;
 }
-
+@font-face {
+  font-family: "pfonttitle";
+  src: url("/public/911porschav3title.ttf") format("truetype"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
 ::-webkit-scrollbar {
   display: none;
   /* Safari and Chrome */
@@ -195,7 +200,7 @@ body {
 }
 
 #intro-text {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   line-height: 1.5;
   color: white;
   font-family: "avneir next", sans-serif;
@@ -203,6 +208,7 @@ body {
   display: flex;
   justify-content: center;
   padding-bottom: 10px;
+  font-family: "pfonttitle";
 }
 
 #intro-underline {
@@ -286,6 +292,10 @@ img {
   margin: auto;
   width: 900px;
   opacity: 0.9;
+}
+
+#projects-title {
+  font-family: "pfonttitle";
 }
 
 #westy-rentals-container {
