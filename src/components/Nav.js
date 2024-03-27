@@ -37,7 +37,7 @@ export default function Nav() {
           duration={700}
           offset={-100}
         >
-          <p>Projects</p>
+          <p>Development</p>
         </Link>
         <Link
           className="nav-button"
