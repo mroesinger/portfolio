@@ -2,7 +2,7 @@ export default function Projects() {
   return (
     <div id="projects">
       <div id="projects-title">
-        <h3>Web Development Projects:</h3>
+        <h3>Web Development Projects</h3>
       </div>
       <div id="westy-rentals-container">
         <a href="https://www.loom.com/share/7f5f2c913b854e7d84dc7d44a838436d">
