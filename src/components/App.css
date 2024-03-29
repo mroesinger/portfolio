@@ -444,6 +444,10 @@ img {
     margin: 2%;
   }
 
+  #about-container {
+    width: 100%;
+  }
+
   /**** MOBILE AUTOMOTIVE ****/
 
   /* Adjust the width for the projects and westy-rentals-gif elements */
