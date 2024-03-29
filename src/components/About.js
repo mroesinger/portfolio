@@ -1,9 +1,7 @@
 export default function About() {
   return (
     <div id="about-container">
-      <div id="about-title">
-        <h3>About</h3>
-      </div>
+      <div id="about-title">{/* <h3>About</h3> */}</div>
       <div id="about-image-container">
         <img
           id="about-image"

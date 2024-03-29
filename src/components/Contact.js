@@ -15,9 +15,7 @@ export default function Contact() {
 
   return (
     <div id="contact">
-      <div id="contact-title">
-        <h3>connect</h3>
-      </div>
+      <div id="contact-title">{/* <h3>connect</h3> */}</div>
       <div id="contact-container">
         <div id="github-container">
           <a href="https://www.github.com/mroesinger">
