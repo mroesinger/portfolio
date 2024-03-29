@@ -424,11 +424,18 @@ img {
   /**** MOBILE ABOUT ****/
 
   /* Adjust the margin and font size for the about-info and intro-info elements */
-  #about-image-container {
+  /* #about-image-container {
     max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+  } */
+
+  #about-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
   }
 
   #about-info {
